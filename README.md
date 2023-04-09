@@ -10,3 +10,10 @@ git branch
 git remote -v
 
 git add .
+git commit -m "user2"
+git commit -m "user2"
+
+browser/github
+repositories
+main->user2 switch user
+pull requests -> Create pull request
