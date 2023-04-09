@@ -17,3 +17,5 @@ browser/github
 repositories
 main->user2 switch user
 pull requests -> Create pull request
+
+it github protected
