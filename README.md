@@ -7,9 +7,10 @@ https://bmjargal.github.io/test/
 # tips
 
 git clone git@github.com:BMJargal/test.git
+
 cd test
-git checkout -b user1 create newuser and switch user
-git branch -v user2 create new user
+git checkout -b user1     -create newuser and switch user
+git branch -v user2       -create new user
 
 git branch
 
@@ -18,6 +19,9 @@ git remote -v
 git add .
 git commit -m "user2"
 git commit -m "user2"
+
+git push    /     git push origin username
+
 
 # browser
 
@@ -49,3 +53,18 @@ pages
 branch
 main.root and save
 done
+
+npm install gh-pages --save-dev
+
+
+package.json add some files
+"homepage": "http://<github-username>.github.io/<repository-name>",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+  
+  npm run deploy
+  
+  
+
